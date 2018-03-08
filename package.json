@@ -1,0 +1,39 @@
+{
+  "name": "zipped-images",
+  "version": "1.0.0",
+  "description": "First project which wants to make zipped images into index HTML file",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "node ./node_modules/gulp/bin/gulp.js",
+    "prod": "node ./node_modules/gulp/bin/gulp.js -- pre-production",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "Zip",
+    "Make",
+    "Images",
+    "data:image"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabioAnsaldi/zipped-images.git"
+  },
+  "author": "Fabio Ansaldi",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-order": "^1.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "lz-string": "^1.4.4"
+  },
+  "dependencies": {
+    "gulp-task": "^2.1.0"
+  }
+}
